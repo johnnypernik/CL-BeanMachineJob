@@ -17,9 +17,11 @@ end
 
 and add this to the fxmanifest of the "qb-clothing"
 
+```
 exports {
 	'ExportBeanMachine',
 }
+```
 
 line doesnt matter
 
