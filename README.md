@@ -6,12 +6,12 @@ Thank you for downloading the script please follow this steps before running the
 1 - Add export if using the clothing with the script:
 go to the "qb-clothing" script then "main.lua" and add this : 
 
-function ExportBeanMachine()
+-- function ExportBeanMachine()
     openMenu({
 		{menu = "character", label = "Clothing", selected = true},
 		{menu = "accessoires", label = "Accessories", selected = false}
 	})
-end
+-- end
 
 and add this to the fxmanifest of the "qb-clothing"
 
